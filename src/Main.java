@@ -5,7 +5,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         double sayi2=0;
         while (true) {
-            System.out.printf("İşlem seçin: +, -, *, /, pow, sqrt, veya çıkış için q: ");
+            System.out.print("İşlem seçin: +, -, *, /, pow, sqrt, veya çıkış için q: ");
             String islem = scanner.next();
             if (islem.equalsIgnoreCase("q")) {
                 System.out.println("Hesap makinesi kapatılıyor...");
